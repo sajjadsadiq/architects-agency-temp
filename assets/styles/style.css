@@ -198,7 +198,7 @@ nav {
 .portfolio-facts-cards {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 3rem 0;
 }
 
@@ -223,6 +223,30 @@ nav {
   color: #727272;
   font-size: 1.25rem;
   font-weight: 600px;
+}
+
+/* sponsors Styles */
+.sponsors {
+  text-align: center;
+}
+
+.sponsors h2 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 1.4rem;
+}
+
+.sponsors-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 3rem;
+}
+
+.sponsors-images img {
+  width: 120px;
 }
 
 /* Mobile Responsive */
